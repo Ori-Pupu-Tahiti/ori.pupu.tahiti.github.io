@@ -1,1 +1,200 @@
 file:///C:/Users/mangi/OneDrive/Bureau/OriPupuTahiti/index.htlm
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ori Pūpū Tahiti</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #fff9c4;
+      color: #000000;
+    }
+    header {
+      position: relative;
+      background-color: #48c9b0;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header .logo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 60px;
+      height: auto;
+    }
+
+
+    nav {
+      background-color: #30a3a0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h1, h2, h3 {
+      background-color: #a0e7e5; 
+      color: black;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+      border-bottom: 1px solid #eee;
+      min-height: 300px;
+    }
+
+    .bloc {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+
+    .bloc p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .bloc img {
+      display: block;
+      margin: 10px auto;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #48c9b0;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background-color: #30a3a0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      flex: 1 1 30%;
+      height: auto;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+
+    footer {
+      background-color: #30a3a0;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Ori Pūpū Tahiti</h1>
+    <img src="images/logo.png" alt="photo logo" class="logo">
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#association">Association</a>
+    <a href="#cours">Cours</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+
+  <section id="accueil">
+    <h2>Accueil</h2>
+    <p>L'héritage polynésien se partage ici, un pas après l'autre.</p>
+    <img src="images/Vahine_rouge.jpg" alt="photo ori6">
+    <p>Qu'est-ce que le Ori Tahiti ?</p>
+    <p>Le Ori Tahiti est bien plus qu'une danse : c'est l'art chorégraphique ancestral de la Polynésie Française. Expression vibrante de l'identité tahitienne, il est le trait d'union entre le corps et l'esprit.</p>
+    <p>Le Ori Tahiti se complète en 2 parties :</p>
+    <p>- L'Otea, à travers la symphonie des percussions, au rythme dynamique et percutant.</p>
+    <img src="images/Gala_ppp.jpg" alt="photo ori2">
+    <p>- L'Aparima, chorégraphies racontant des légendes et histoires avec des gestes gracieux et des mélodies accompagnées de chants et de ukulele.</p>
+    <img src="images/Ori_Vahine.jpg" alt="photo ori4">
+  </section>
+
+  <section id="association">
+    <div class="bloc">
+      <h2>Association</h2>
+      <p>L'association Ori Pūpū Tahiti est née de notre passion pour la culture polynésienne.</p>
+    </div>
+    <div class="bloc">
+      <h3>La Professeure</h3>
+      <img src="images/Foret_Vahine.jpg" alt="Photo Ori3">
+      <p>Je m'appelle Julie Mangini, j'ai 25 ans.</p>
+      <p>Fascinée depuis toujours par les différentes cultures du monde, j'ai découvert la culture polynésienne par le Ori Tahiti à l'âge de 19 ans et j'en suis tombée amoureuse. J'ai eu l'occasion de partir à Tahiti en 2021, ce qui a renforcé mon amour pour cette culture. J'ai participé à plusieurs concours : le concours européen du Ori Tahiti, le Heiva I Paris à deux reprises et le Heiva Digital en 2023.</p>
+      <p>Après toutes ces années, j'ai décidé de commencer l'enseignement de cette culture. Dans notre association, nous transmettons les valeurs du Mana et le respect des traditions polynésiennes.</p>
+    </div>
+  </section>
+
+  <section id="cours">
+    <h2>Cours</h2>
+    <p>Nous proposons des cours en présentiel à l'année ainsi que des cours en ligne.</p>
+    <img src="images/Savage_vahine.jpg" alt="Photo Ori7">
+    <p>Tarifs :</p>
+    <p>
+      1 cours/semaine en présentiel : 20 €/mois (ou 200 €/an, payable jusqu'à 3 fois)<br>
+      Cours accès illimité en présentiel : 30 €/mois (ou 300 €/an)<br>
+      Cours en ligne accès illimité : 20 €/mois<br>
+      Carte 5 cours : 50 €<br>
+      Carte 10 cours : 70 €
+    </p>
+  </section>
+
+  <section id="galerie">
+    <h2>Galerie</h2>
+    <div class="gallery">
+      <img src="images/Foret_aito.jpg" alt="photo ori1">
+      <img src="images/Gala_ppp.jpg" alt="photo ori2">
+      <img src="images/Photo_gala_PPP.jpg" alt="photo ori5">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <a href="mailto:oripupu.tahiti@gmail.com" class="btn">Contactez-nous</a><br><br>
+    <a href="https://www.facebook.com/profile.php?id=61586114231010" target="_blank">Facebook</a> |
+    <a href="https://www.instagram.com/oripupu.tahiti/" target="_blank">Instagram</a> |
+    <a href="https://www.youtube.com/@OriPupuTahiti" target="_blank">YouTube</a> |
+    <a href="https://www.tiktok.com/@oripupu_tahiti" target="_blank">TikTok</a> |
+    <a href="https://linktr.ee/oripupu.tahiti" target="_blank">Linktree</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Ori Pūpū Tahiti – Saint-Mathieu-de-Tréviers</p>
+  </footer>
+
+</body>
+</html>
+
+
